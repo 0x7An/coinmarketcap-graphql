@@ -1,0 +1,19 @@
+{
+  "name": "cryptoservr",
+  "version": "1.0.0",
+  "description": "graphql server layer of cryptotrackr",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "json-server": "^0.12.2",
+    "nodemon": "^1.17.3"
+  }
+}
