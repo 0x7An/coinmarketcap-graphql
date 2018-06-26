@@ -7,7 +7,7 @@ Graph layer on top of CoinmarketCap
 Go to: `http://localhost:4000/graphql`
 
 # Query example
-{
+`{
   coins(id: "bitcoin") {
     id,
     name,
@@ -23,4 +23,4 @@ Go to: `http://localhost:4000/graphql`
     percent_change_24h,
     percent_change_7d
   }
-}
+}`
