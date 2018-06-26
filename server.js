@@ -12,6 +12,5 @@ app.use('/graphql', expressGraphQL({
 const PORT = 4000
 
 app.listen(PORT, () => {
-    console.log(`Leanit GraphQL server running on port ${PORT}`);
-
+    console.log(`Server running on port ${PORT}`);
 });
